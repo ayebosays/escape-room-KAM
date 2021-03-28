@@ -46,3 +46,30 @@ header {
   border: 1px solid black;
 }
 
+/* About Us */
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2em;
+  padding: 4em;
+}
+
+.aboutus-card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 20em;
+  background: seashell;
+  border: 1px solid black;
+}
+
+.changetoimg {
+  background: grey;
+  color: white;
+  width: auto;
+  height: 70%;
+}
+
+.aboutus-contact {
+  text-align: center;
+}
