@@ -46,10 +46,16 @@ header {
   border: 1px solid black;
 }
 
+/* How It Works */
+.howitworks-container {
+  padding: 4em;
+}
+
 /* About Us */
 .about-us-container {
   display: flex;
   flex-direction: row;
+  background: seashell;
   column-gap: 2em;
   padding: 4em;
 }
@@ -59,7 +65,7 @@ header {
   flex-direction: column;
   flex-grow: 1;
   min-height: 20em;
-  background: seashell;
+  background: white;
   border: 1px solid black;
 }
 

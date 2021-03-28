@@ -1,6 +1,8 @@
 const HowItWorks = () => {
     return (
-        <h1> How the app works section</h1>
+        <div className="howitworks-container">
+            <h1>How the app works section</h1>
+        </div>
     )
 }
 
