@@ -14,7 +14,9 @@ body {
 .nav-wrapper {
   display: flex;
   justify-content: flex-end;
-  background: red;
+  background: grey;
+  height: 50px;
+  padding-top: 10px;
 }
 
 ul {
@@ -24,4 +26,23 @@ ul {
 
 li {
   margin-right: 2em;
+  list-style: none;
 }
+
+/* Main */
+header {
+  display: flex;
+  flex-direction: row;
+  background: seashell;
+  column-gap: 2em;
+  padding: 4em;
+}
+
+.header-text-container {
+
+}
+
+.header-screenshot {
+  border: 1px solid black;
+}
+
