@@ -8,6 +8,7 @@ const Header = () => {
             </div>
             <div className="header-screenshot">
                 <h1>Screenshot or GIF of app</h1>
+                
             </div>
 
 
