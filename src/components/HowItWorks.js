@@ -1,3 +1,5 @@
+import React from 'react';
+
 const HowItWorks = () => {
     return (
         <div className="howitworks-container">
