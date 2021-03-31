@@ -44,7 +44,7 @@ const Home = () => {
                             <a href="#.html">Social 2</a>
                         </div>
                     </li>
-                    <li className="aboutus-card">
+                    {/* <li className="aboutus-card">
                         <div className="changetoimg">Headshot here</div>
                         <div className="aboutus-contact">
                             <h3>Maria</h3>
@@ -52,7 +52,7 @@ const Home = () => {
                             <a href="#.html">Social 1</a>
                             <a href="#.html">Social 2</a>
                         </div>
-                    </li>
+                    </li> */}
                 </ul>
             </section>
         </div>
