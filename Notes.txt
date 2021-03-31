@@ -1,0 +1,6 @@
+TO DO:
+-----------------------------------------
+[] - Get Phaser + Parcel Template working
+[] - Refactor existing code using React 
+[] - Cry because time is running out
+
