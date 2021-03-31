@@ -1,12 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Link } from 'react-router-dom';   //This is necessary in order to use <Link>
+import { Link } from 'react-router-dom'; // Need this to render li's 
 
 const Nav = () => {
     return (
         <div>
             <nav className="nav-wrapper">
                 <ul>
-                    <Link to="/Game" />
+                    <Link to ="/">
+                        <li>Home</li>
+                    </Link>
+                    <Link to="/Game">
+                        <li>Game</li>
+                    </Link>
                 </ul>
             </nav>
         </div>

@@ -1,18 +1,19 @@
 import Nav from './components/Nav';
-import Header from './components/Header';
-import HowItWorks from './components/HowItWorks';
-import AboutUs from './components/AboutUs';
+import Home from './components/Home';
 import Game from './components/Game';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; // need this to add links to the navbar
 
 function App() {
   return (
-    <div className="container">
-      <Nav />
-      <Header />
-      <Game />
-      <HowItWorks />
-      <AboutUs />
-    </div>
+    <Router>
+      <div className="container">
+        <Nav />
+          <Switch>
+            <Route path="/" exact component={ Home } />
+            <Route path="/game" component={ Game } />
+          </Switch>
+      </div>
+    </Router>
   );
 }
 
